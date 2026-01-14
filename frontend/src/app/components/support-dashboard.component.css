@@ -1,0 +1,33 @@
+.ticket {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.muted {
+  color: #666;
+  font-size: 13px;
+}
+
+.status select {
+  padding: 6px;
+}
+
+.thumb {
+  max-width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error {
+  color: #c62828;
+}
+
